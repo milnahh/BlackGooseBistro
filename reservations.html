@@ -1,0 +1,55 @@
+
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Reservations</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <h1>Book a Table</h1>
+</header>
+
+<nav>
+    <a href="index.html">Home</a>
+    <a href="menu.html">Menu</a>
+    <a href="reservations.html">Reservations</a>
+    <a href="gallery.html">Gallery</a>
+</nav>
+
+<main>
+    <h2>Reservation Form</h2>
+
+    <form>
+        <label>Name:</label><br>
+        <input type="text" name="name" required>
+        <br><br>
+
+        <label>Contact Number:</label><br>
+        <input type="tel" name="contact" required>
+        <br><br>
+
+        <label>Date:</label><br>
+        <input type="date" name="date" required>
+        <br><br>
+
+        <label>Time:</label><br>
+        <input type="time" name="time" required>
+        <br><br>
+
+        <label>Number of Guests:</label><br>
+        <input type="number" name="guests" min="1" required>
+        <br><br>
+
+        <input type="submit" value="Book Table">
+        <input type="reset" value="Clear">
+    </form>
+</main>
+
+<footer>
+    <p>Copyright &copy; 2026 Black Goose Bistro</p>
+</footer>
+
+</body>
+</html>
